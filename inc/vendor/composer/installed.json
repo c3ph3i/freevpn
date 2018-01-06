@@ -1,0 +1,60 @@
+[
+    {
+        "name": "duzun/hquery",
+        "version": "1.7.1",
+        "version_normalized": "1.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/duzun/hQuery.php.git",
+            "reference": "d43c98c7cc21fbbadd57f5c287e03ab77d319c88"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/duzun/hQuery.php/zipball/d43c98c7cc21fbbadd57f5c287e03ab77d319c88",
+            "reference": "d43c98c7cc21fbbadd57f5c287e03ab77d319c88",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "~4.1",
+            "phpunit/phpunit": "^6.1"
+        },
+        "time": "2017-11-27T07:58:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "hquery.php"
+            ],
+            "psr-4": {
+                "duzun\\": "psr-4"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dumitru Uzun",
+                "email": "contact@duzun.me",
+                "homepage": "https://DUzun.Me",
+                "role": "Developer"
+            }
+        ],
+        "description": "An extremely fast web scraper that parses megabytes of HTML in a blink of an eye. No dependencies. PHP5+",
+        "homepage": "https://duzun.me/playground/hquery",
+        "keywords": [
+            "crawling",
+            "html",
+            "php",
+            "scraper",
+            "scraping",
+            "web",
+            "xhtml",
+            "xml"
+        ]
+    }
+]
