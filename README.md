@@ -10,7 +10,7 @@ VPN client using VPN access from http://vpnbook.com/
 # Installing and run
 
 ```sh
-$ git clone https://github.com/alkhachatryan/freevpn.git
+$ git clone https://github.com/c3ph3i/freevpn.git
 $ cd freevpn
 $ composer install
 ```
@@ -21,6 +21,4 @@ Once you installed the program - run it.
 $ sudo  ./run.sh
 ```
 
-
-https://khachatryan.org
 
